@@ -1,0 +1,1063 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* whatsapp icon */
+.whatsapp-button {
+    position: fixed; /* Makes the button fixed on the screen */
+    bottom: 20px; /* Distance from the bottom */
+    right: 20px; /* Distance from the right side */
+    background-color: #25D366; /* WhatsApp green color */
+    color: #fff; /* Text color */
+    border-radius: 50%; /* Circular button */
+    width: 60px; /* Button width */
+    height: 60px; /* Button height */
+    display: flex; /* To center the icon */
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Adds shadow */
+    text-decoration: none; /* Removes link underline */
+    font-size: 30px; /* Icon size */
+    z-index: 1000; /* Ensures the button is above other elements */
+        }
+
+.whatsapp-button:hover {
+            background-color: #128C7E; /* Darker green on hover */
+        }
+
+/* end whatsapp icon */
+.navbar {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 15px 30px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+.nav-item{
+    font-size: 21px !important;
+    font-weight: 800 !important;
+}
+/* logo edit */
+i.fa-solid.fa-soap.logo-icon-learning {
+    font-size: 65px;
+    padding-right: 12px;
+}
+span.logo-name {
+    font-weight: 900;
+    margin-top: 10px;
+    font-size: 32px;
+}
+span.bdshop {
+    font-size: 22px;
+    color: #978e8e;
+    font-weight: 600;
+    margin-top: -7px;
+}
+span.webname {
+    color: #aac0c0;
+}
+.logodivtxt {
+    display: inline-grid;
+}
+/* span.bd {
+    margin-top: 22px;
+    font-size: 32px;
+    color: gray;
+    font-weight: 700;
+}
+span.shop {
+    color: gray;
+    font-weight: 200;
+    margin-top: 28px;
+} */
+a.btn.btn-primary {
+    border: none;
+    text-decoration: none;
+}
+
+
+
+.lidiv {
+    display: flex;
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    margin-right: 2px;
+}
+
+
+
+/* end logo edit */
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #a0a4a8;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ff6600;
+}
+
+span.pric {
+    margin-left: 20px;
+    font-size: 34px;
+    font-family: 'Hind Siliguri';
+    font-weight: 600;
+    color: orange;
+    position: absolute;
+    margin-top: -15px;
+}
+
+.contact {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 21px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.contact:hover {
+    background-color: #218838;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff6600;
+}
+
+.logo-icon {
+    font-size: 30px;
+    margin-right: 10px;
+    color: #ff6600;
+}
+
+.hero {
+    background-color: #343a40;
+    color: white;
+    padding: 100px 20px;
+    margin: auto;
+    height: 262px;
+}
+img.imghero {
+    width: 177%;
+    margin-top: -50px;
+    margin-left: -95px;
+}
+.hero-photo {
+    width: 416px;
+    position: absolute;
+    margin-top: -46px;
+}
+.hero-content {
+    margin-left: 618px;
+    margin-top: revert-layer;
+}
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 9px;
+    margin-top: 8px;
+}
+i.fa-solid.fa-quote-left.words-quote {
+    margin-left: -48px;
+    margin-right: 7px;
+    color: #2c9a9b;
+    margin-top: -10px !important;
+    position: absolute;
+}
+span.htitle {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 400;
+}
+span.Words {
+    BACKGROUND: #208080;
+    padding: 2px;
+    font-family: sans-serif;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 400;
+}
+section.tu-one {
+    display: flex;
+    padding: 49px 28px 37px 43px;
+    margin-top: 120px;
+}
+h1.tu-title-txt {
+    font-family: "Montserrat", sans-serif;
+    color: #505050;
+    font-weight: 700;
+}
+span.sen {
+    background-color: #e5e5e5;
+    padding: 2px 4px;
+    font-size: 43PX;
+}
+span.mak {
+    font-size: 43px;
+}
+h1.tu-title-txt {
+    font-family: "Montserrat", sans-serif;
+    color: #505050;
+    font-weight: 700;
+}
+span.sub-tit-txt {
+    font-family: 'Hind Siliguri';
+    font-size: 33px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+p.tu-txt-p {
+    font-family: 'Hind Siliguri';
+    font-size: 18px;
+    line-height: 1.2;
+}
+.tu-txt {
+    width: 860px;
+}
+.tu-img {
+    width: 100%;
+    overflow: hidden;
+}
+img.tu-img-bac {
+    width: 819px;
+    margin-top: -137px;
+    margin-left: -43px;
+}
+
+/* section two */
+section.tu-two {
+    display: flex;
+    padding: 49px 28px 37px 43px;
+}
+.tu-sec-im {
+    width: 100%;
+}
+img.tu-sec-im-s {
+    width: 819px;
+    margin-top: -96px;
+    margin-left: -107px;
+}
+/* summary section */
+section.summary-sec {
+    height: 670px;
+}
+h1.sum-head {
+    position: relative;
+    font-size: 43px;
+    color: #505050;
+    font-family: 'Hind Siliguri';
+    font-weight: 400;
+    margin-top: 40px;
+    margin-left: 102px;
+}
+.sum-all-sec {
+    float: left;
+    font-size: 16px;
+    color: #505050;
+    font-weight: 600;
+    padding: 52px;
+    margin-top: -75px;
+    margin-left: 102px;
+    font-family: "Montserrat", sans-serif;
+}
+.sum-img {
+    overflow: hidden;
+    margin-top: -250px;
+    height: 586px;
+}
+img.sum-im-s {
+    width: 1034px;
+    margin-top: -89px;
+    margin-left: -313px;
+}
+span.meani {
+    background: #007bff;
+    padding: 4px;
+    margin-top: -7px;
+    color: white;
+}span.partsof {
+    background: #2c9a9b;
+    padding: 4px;
+    margin-top: 3px;
+    color: white;
+}span.sent-sum {
+    background: #ff6600;
+    padding: 4px;
+    margin-top: 13px;
+    color: white;
+}span.synato {
+    background: #343a40;
+    padding: 4px;
+    margin-top: 23px;
+    color: white;
+}span.story-sum {
+    background: #0080ff;
+    padding: 4px;
+    margin-top: 51px;
+    color: white;
+}
+h1.sum-expre {
+    float: left;
+    position: absolute;
+    margin-top: 21px;
+}
+
+
+
+/* offer section */
+.line-of {
+    text-align: center;
+    padding: 20px;
+    margin-top: -100px;
+}
+
+.line-of h1 {
+    color: #505050;
+    font-family: 'Hind Siliguri';
+    font-weight: 500;
+    font-size: 44px;
+}
+
+.timeline {
+    position: relative;
+    margin: 50px auto;
+    padding: 40px 0;
+    width: 80%;
+    margin-top: -22px;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 4px;
+    height: 100%;
+    background: #233531;
+}
+.timeline-item {
+    position: relative;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.timeline-item:nth-child(odd) {
+    left: 0;
+}
+
+.timeline-item:nth-child(even) {
+    left: 50%;
+}
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    right: -8px;
+    width: 16px;
+    height: 16px;
+    background: #3a554f;
+    border-radius: 50%;
+}
+
+.timeline-item:nth-child(even)::before {
+    right: auto;
+    left: -8px;
+}
+
+.timeline-item .content {
+    background: #208080;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+    font-family: 'Hind Siliguri';
+    font-weight: 200;
+    font-size: 19px;
+    line-height: 1.4;
+}
+.timeline-item h3 {
+    margin: 0 0 10px;
+    color: #343a40;
+    background: #e5e5e5;
+    width: 143px;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+
+
+/* end offer section */
+/* circle section */
+
+/* end circle section */
+.cta {
+    background-color: #ff6600;
+    color: white;
+    cursor: pointer;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+    background-color: #e55b00;
+}
+
+section#course-section {
+    text-align: center;
+    margin-top: 135px !important;
+    margin-bottom: 100px !important;
+    border: 2px solid;
+    width: 1065px;
+    margin: auto;
+    padding: 46px;
+    background: #2080800f;
+}
+h2.con-sec {
+    margin-left: 47px;
+    font-size: 44px;
+    font-family: 'Hind Siliguri';
+    color: #3a554f;
+}
+input[type="text"] {
+    margin-left: 44px;
+    padding: 10px;
+}
+input[type="email"] {
+    margin-left: 10px;
+    padding: 10px;
+}
+textarea {
+    display: inherit;
+    margin-left: 43px;
+    margin-top: 10px;
+    padding: 10px;
+    height: 100px;
+    width: 400px;
+}
+/* button.btn.btn-primary {
+    margin-left: 43px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+} */
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 43px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+section#contact-section {
+    height: 201px;
+}
+span.cont-para {
+    margin-left: 46px;
+    font-size: 33px;
+    font-family: 'Hind Siliguri';
+    margin-top: -33px;
+    position: absolute;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Small Devices (Portrait Tablets and Larger Smartphones) */
+
+/* @media (min-width: 375px) and (max-width: 426px) {
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        height: 215px;
+        margin-top: -60px;
+        margin-bottom: -65px;
+    }
+    .lidiv {
+        display: none;
+
+    }
+    section.hero {
+        display: inline-block;
+        height: 853px;
+    }
+    
+
+    .hero-photo {
+        width: 378px;
+    }
+    img.imghero {
+        width: 104%;
+        margin-top: 37px;
+        margin-left: -58px;
+    }
+    .hero-content {
+        margin-left: 345px;
+        text-align: left;
+    }
+    section.tu-one {
+        height: 486px;
+    }
+    .tu-txt {
+        margin-top: -73px;
+        margin-left: -22px;
+    }
+    img.tu-img-bac {
+        width: 503px;
+        margin-left: -49px;
+    }
+    img.tu-sec-im-s {
+        width: 473px;
+        margin-left: -93px;
+    }
+    .tu-txt {
+        margin-top: -34px;
+        width: 100%;
+    }
+    section.summary-sec {
+        height: 1046px;
+    }
+    h1.sum-head {
+        width: 344px;
+    }
+    .sum-all-sec {
+        width: 282px;
+    }
+    span.synato {
+        margin-top: 21px;
+        margin-left: 0px;
+    }
+    span.story-sum {
+        margin-top: 53px;
+    }
+    h1.sum-expre {
+        margin-top: 103px;
+    }
+    .sum-img {
+        width: 87%;
+    }
+    img.sum-im-s {
+        width: 829px;
+        margin-top: 33px;
+    }
+    section#course-section {
+        width: 309px;
+    }
+    h2.con-sec {
+        width: 30%;
+    }
+
+} */
+
+
+@media (max-width: 480px) {
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        height: 215px;
+        margin-top: -60px;
+        margin-bottom: -65px;
+    }
+    .lidiv {
+        display: none;
+    }
+    section.hero {
+        display: inline-block;
+        height: 853px;
+    }
+    .hero-photo {
+        width: 390px;
+        position: absolute;
+        margin-top: -46px;
+        overflow: hidden;
+    }
+    img.imghero {
+        width: 140%;
+        margin-top: -17px;
+        margin-left: -72px;
+    }
+    .hero-content {
+        margin-top: 310px;
+        margin-left: 43px;
+        text-align: center;
+    }
+    span.pric {
+        margin-top: 12px;
+        margin-left: -79px;
+    }
+    .cta {
+        margin-left: -113px;
+        margin-top: 71px;
+        position: absolute;
+    }
+    section.tu-one {
+        display: inline-block;
+        margin-top: 50px;
+        border-bottom: 5px solid #208080;
+        height: 562px;
+        width: 81%;
+        overflow: hidden;
+    }
+    .tu-txt {
+        width: 380px;
+        margin-top: -27px;
+        margin-left: -24px;
+        
+    }
+    span.sen {
+        font-size: 36PX;
+    }
+    span.mak {
+        font-size: 36px;
+    }
+    span.sub-tit-txt {
+        font-size: 24px;
+    }
+    p.tu-txt-p {
+        font-size: 16px;
+    }
+    .tu-img {
+        width: 137%;
+        justify-content: center;
+        margin: auto;
+    }
+    img.tu-img-bac {
+        width: 446px;
+        margin-top: -55px;
+        margin-left: -53px;
+    }
+    section.tu-two {
+        display: inline-block;
+        width: 73%;
+        overflow: hidden;
+    }
+    img.tu-sec-im-s {
+        width: 422px;
+        margin-top: -35px;
+        margin-left: -65px;
+    }
+    .tu-txt {
+        margin-top: -27px;
+        width: 100%;
+    }
+    section.summary-sec {
+        height: 1097px;
+        margin-top: 100px;
+    }
+    h1.sum-head {
+        margin-left: 52px;
+        width: 373px;
+        line-height: 1.2;
+        font-weight: 600;
+    }
+    .sum-all-sec {
+        width: 300px;
+        margin-top: -74px;
+        margin-left: 3px;
+    }
+    span.sent-sum {
+        margin-top: 27px;
+        position: absolute;
+        margin-left: -256px;
+    }
+    span.synato {
+        margin-top: -12px;
+        position: absolute;
+        margin-left: 178px;
+    }
+    span.story-sum {
+        margin-top: 20px;
+        position: absolute;
+    }
+    h1.sum-expre {
+        margin-top: 65px;
+    }
+    .sum-img {
+        margin-top: 224px;
+        margin-left: -4px;
+        position: absolute;
+        overflow: hidden;
+        width: 100%;
+    }
+    img.sum-im-s {
+        width: 879px;
+        margin-top: -62px;
+        margin-left: -221px;
+    }
+    .line-of h1 {
+        line-height: 1.2;
+        font-weight: 600;
+    }
+    .timeline::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -5%;
+        transform: translateX(-50%);
+        width: 4px;
+        height: 100%;
+        background: #233531;
+    }
+    .timeline-item::before {
+        content: '';
+        position: absolute;
+        top: 20px;
+        right: 405.5px;
+        width: 16px;
+        height: 16px;
+        background: #3a554f;
+        border-radius: 50%;
+    }
+    .timeline-item {
+        width: 102%;
+    }
+    .timeline-item:nth-child(even) {
+        left: -1%;
+    }
+    .timeline-item:nth-child(even)::before {
+        right: auto;
+        left: -23px;
+    }
+    section#course-section {
+        width: 318px;
+    }
+
+    span.cont-para {
+        margin-left: 46px;
+        font-size: 27px;
+        font-family: 'Hind Siliguri';
+        margin-top: -33px;
+        position: absolute;
+    }
+
+
+
+
+
+    .btn-primary {
+        width: 100%;
+        max-width: 387px;
+        margin-top: 22px;
+        margin-bottom: 87px;
+        margin-left: 0;
+    }
+}
+
+
+ @media (min-width: 768px) and (max-width: 1024px) {
+    i.fa-solid.fa-soap.logo-icon-learning {
+        font-size: 44px;
+    }
+    span.logo-name {
+        font-size: 19px;
+    }
+    span.bdshop {
+        font-size: 18px;
+    }
+    .nav-item {
+        font-size: 15px !important;
+        position: absolute;
+    }
+    a.contact {
+        font-size: 14px;
+        margin-left: 131px;
+    }
+    .hero {
+        height: 292px;
+    }
+    span.sen {
+        font-size: 26PX;
+    }
+    span.mak {
+        font-size: 26px;
+    }
+    span.sub-tit-txt {
+        font-family: 'Hind Siliguri';
+        font-size: 19px;
+        line-height: 1.2;
+        font-weight: 400;
+    }
+    p.tu-txt-p {
+        font-size: 13px;
+    }
+
+    img.tu-sec-im-s {
+        width: 489px;
+        margin-top: -38px;
+    }
+
+    section.summary-sec {
+        height: 980px;
+    }
+    .sum-all-sec {
+        margin-left: 47px;
+    }
+    .sum-img {
+        width: 27%;
+        overflow: hidden;
+        margin-top: -182px;
+        height: 668px;
+        margin-left: 161px;
+    }
+    img.sum-im-s {
+        width: 981px;
+        margin-top: -89px;
+        margin-left: -313px;
+        position: absolute;
+    }
+    section#course-section {
+        width: 465px;
+    }
+
+    .hero-photo {
+        width: 337px;
+    }
+    img.imghero {
+        width: 114%;
+        margin-top: 72px;
+        margin-left: -56px;
+    }
+    .hero-content {
+        margin-left: 300px;
+    }
+    .hero h1 {
+        font-size: 42px;
+    }
+    span.htitle {
+        font-size: 23px;
+    }
+    .hero p {
+        font-size: 8px;
+    }
+    span.pric {
+        margin-top: -16px;
+        font-size: 22px;
+        margin-left: 25px;
+    }
+    a.cta {
+        margin-top: 17px !important;
+        position: absolute;
+        font-size: 15px;
+        padding: 10px;
+    }
+    .tu-txt {
+        width: 529px;
+    }
+    .tu-img img {
+        max-width: 369px;
+        margin-top: -28px;
+    }
+    .tu-sec-im {
+        width: 58%;
+    }
+    
+} 
+
+/* Medium Devices (Tablets and Small Laptops) */
+@media (min-width: 768px) and (max-width: 1000px) {
+    i.fa-solid.fa-soap.logo-icon-learning {
+        font-size: 46px;
+    }
+    span.logo-name {
+        font-size: 18px;
+    }
+    span.bdshop {
+        font-size: 14px;
+        margin-top: -5px;
+    }
+    .nav-item {
+        font-size: 17px !important;
+        font-weight: 500 !important;
+    }
+    span.pric {
+        margin-top: 12px;
+        margin-left: 36px;
+    }
+    a.cta {
+        margin-top: 68px !important;
+        position: absolute;
+    }
+    .contact {
+        font-size: 15px;
+    }
+    img.imghero {
+        width: 104%;
+        margin-top: 37px;
+        margin-left: -58px;
+    }
+    .hero-content {
+        margin-left: 345px;
+        text-align: left;
+    }
+    section.tu-one {
+        display: flex
+    ;
+        padding: 49px 28px 37px 43px;
+        margin-top: 52px;
+    }
+    .hero h1 {
+        font-size: 24px;
+    }
+    span.htitle {
+        font-size: 24px;
+    }
+    .hero p {
+        font-size: 13px;
+    }
+    span.sen {
+        font-size: 27PX;
+    }
+    span.mak {
+        font-size: 27px;
+    }
+    span.sub-tit-txt {
+        font-size: 19px;
+    }
+    p.tu-txt-p {
+        font-family: 'Hind Siliguri';
+        font-size: 10px;
+        line-height: 1.2;
+    }
+    .tu-img {
+        width: 108%;
+    }
+    .tu-img img {
+        max-width: 459px;
+        margin-top: -81px;
+    }
+    /* section tu-two */
+    img.tu-sec-im-s {
+        width: 482px;
+        margin-top: -96px;
+        margin-left: -76px;
+    }
+    .tu-txt {
+        width: 557px;
+    }
+    .tu-txt-extra {
+        width: 90%;
+        max-width: 600px;
+        text-align: left;
+        margin-top: -48px;
+    }
+    h1.sum-head {
+        margin-left: 54px;
+    }
+    .sum-all-sec {
+        margin-left: 4px;
+        width: 510px;
+    }
+    .sum-img {
+        overflow: hidden;
+        margin-top: 116px;
+        height: 586px;
+        position: absolute;
+        width: 100%;
+    }
+    .summary-sec img {
+        margin-left: -178px;
+        position: absolute;
+        margin-top: -93px;
+    }
+    .line-of {
+        margin-top: 151px;
+    }
+    .timeline-item {
+        width: 61%;
+        margin: 25px -11%;
+    }
+    .timeline-item-extra {
+        width: 61%;
+        margin: 31px 0%;
+    }
+    section#course-section {
+        width: 427px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        max-width: 400px;
+    }
+
+    .btn-primary {
+        max-width: 400px;
+    }
+}
+
+/* Large Devices (Desktops and Large Screens) */
