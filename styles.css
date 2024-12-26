@@ -597,7 +597,7 @@ footer {
         font-family: 'Hind Siliguri';
         font-size: 18px;
         line-height: 1.2;
-        width: 361px;
+        width: 341px;
     }
     
     .tu-img {
@@ -686,7 +686,7 @@ footer {
         border-radius: 50%;
     }
     .timeline-item .content {
-        width: 300px;
+        width: 277px;
         margin-left: 29px;
     }   
     .timeline-item:nth-child(even)::before {
@@ -697,7 +697,7 @@ footer {
         left: 0%;
     }
     section#course-section {
-        width: auto;
+        width: 287px;
     }
     span.cont-para {
         padding: 20px;
