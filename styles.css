@@ -518,6 +518,9 @@ footer {
 
 
 @media (max-width: 425px) {
+    .navbar {
+        width: -webkit-fill-available; /* git change */
+    }
     .logo {
         margin: auto;
     }
@@ -526,6 +529,7 @@ footer {
         display: none;
     }
     .hero {
+        width: -webkit-fill-available; /* git change */
         display: list-item;
         background-color: #343a40;
         color: white;
@@ -581,6 +585,7 @@ footer {
     }
     section.tu-one {
         display: inline-block;
+        width: 389px; /* git change */
         margin-top: 25px;
         padding: unset;
         border-bottom: 2px solid #307677;
@@ -591,7 +596,7 @@ footer {
     .tu-txt {
         position: absolute;
         padding: 37px;
-        width: 340px;
+        width: 340px; /* git change */
     }
     p.tu-txt-p {
         font-family: 'Hind Siliguri';
@@ -629,10 +634,11 @@ footer {
     }
     .tu-txt.tu-txt-extra {
         position: relative;
-        width: 362px;
+        width: 337px; /* git change */
         padding: initial;
     }
     section.summary-sec {
+        width: 364px; /* git change */
         height: 1001px;
         border-bottom: 40px solid #347a7bf5;
     }
@@ -640,6 +646,7 @@ footer {
         margin-left: 31px;
     }
     .sum-all-sec {
+        width: 273px; /* git change */
         margin-left: -12px;
     }
     .pointsdiv {
@@ -648,16 +655,16 @@ footer {
     .sum-img {
         position: absolute;
         height: 444px;
-        width: 400px;
+        width: 334px; /* git change */
         z-index: 9999999999;
         overflow: hidden;
         margin-left: 14px;
         margin-top: 308px;
     }
     img.sum-im-s {
-        width: 800px;
-        margin-top: -82px;
-        margin-left: -199px;
+        width: 696px;
+        margin-top: -11px;
+        margin-left: -186px;
     }
     .line-of {
         margin-top: 4px;
@@ -680,7 +687,7 @@ footer {
         position: absolute;
         top: 20px;
         right: auto;
-        left: 12px;
+        left: 12.5px; /* git changge */
         width: 16px;
         height: 16px;
         background: #3a554f;
@@ -692,18 +699,24 @@ footer {
     }   
     .timeline-item:nth-child(even)::before {
         right: auto;
-        left: 13px;
+        left: 12.5px; /* git changge */
     }
     .timeline-item:nth-child(even) {
         left: 0%;
     }
     section#course-section {
-        width: 287px;
+        width: 254px; /* git change */
+    }
+    a.btn.btn-primary {
+        margin: auto;
     }
     span.cont-para {
         padding: 20px;
         margin-left: 27px;
         font-size: 23px;
+    }
+    footer {
+        width: -webkit-fill-available;
     }
 
      
