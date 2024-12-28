@@ -679,7 +679,8 @@ footer {
         content: '';
         position: absolute;
         top: 20px;
-        right: 183px;
+        right: auto;
+        left: 12px;
         width: 16px;
         height: 16px;
         background: #3a554f;
