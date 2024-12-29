@@ -588,7 +588,15 @@ footer {
         width: 389px; /* git change */
         margin-top: 25px;
         padding: unset;
-        border-bottom: 2px solid #307677;
+        overflow: hidden;
+        position: relative;
+    }
+    section.tu-one {
+        display: inline-block;
+        width: 358px; /* git change */
+        margin-top: 25px;
+        padding: unset;
+        border-bottom: 2px solid #307677; 
         overflow: hidden;
         position: relative;
     }
@@ -596,13 +604,13 @@ footer {
     .tu-txt {
         position: absolute;
         padding: 37px;
-        width: 340px; /* git change */
+        width: 313px; /* git change */
     }
     p.tu-txt-p {
         font-family: 'Hind Siliguri';
         font-size: 18px;
         line-height: 1.2;
-        width: 341px;
+        width: 327px;
     }
     
     .tu-img {
@@ -618,19 +626,33 @@ footer {
     }
     section.tu-two {
         display: inline-block;
-        padding: 49px 28px 37px 43px;
+        padding: 0px 0px 0px 0px;
         width: 327px;
         overflow: hidden;
+        margin-left: 36px;
     }
+    /* line code */
+    .tu-one .line-code-one{
+        margin: 10px auto 0; /* Space between text and line */
+        width: 300px; /* Width of the line */
+        height: 2px; /* Thickness of the line */
+        background-color: black; /* Line color */
+        }
+    .tu-two .line-two{
+        margin: 10px auto 0; /* Space between text and line */
+        width: 300px; /* Width of the line */
+        height: 2px; /* Thickness of the line */
+        background-color: black; /* Line color */
+      }
     .tu-sec-im {
         overflow: hidden;
         width: 358px;
         margin-left: -19px;
     }
     img.tu-sec-im-s {
-        width: 455px;
-        margin-left: -63px;
-        margin-top: -22px;
+        width: 393px;
+        margin-left: -30px;
+        margin-top: 0px;
     }
     .tu-txt.tu-txt-extra {
         position: relative;
@@ -640,7 +662,6 @@ footer {
     section.summary-sec {
         width: 364px; /* git change */
         height: 1001px;
-        border-bottom: 40px solid #347a7bf5;
     }
     h1.sum-head {
         margin-left: 31px;
