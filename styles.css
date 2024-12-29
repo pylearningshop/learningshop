@@ -596,7 +596,6 @@ footer {
         width: 358px; /* git change */
         margin-top: 25px;
         padding: unset;
-        border-bottom: 2px solid #307677; 
         overflow: hidden;
         position: relative;
     }
